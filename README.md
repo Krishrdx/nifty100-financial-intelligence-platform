@@ -29,27 +29,6 @@ The platform follows an end-to-end data engineering workflow, beginning with dat
 * PyTest
 * OpenPyXL
 
-## Project Architecture
+This project was developed during our work at **BlueStock**. **Angad** primarily worked on the software development, backend architecture, and application implementation, while I focused on financial research, SQL database design, data analysis, and deriving business insights from the NIFTY 100 financial data.
 
-
-Raw Financial Data
-        │
-        ▼
-ETL Pipeline
-        │
-        ▼
-SQLite Database
-        │
- ┌──────┴────────┐
- │               │
- ▼               ▼
-Analytics     FastAPI
- │               │
- └──────┬────────┘
-        ▼
- Streamlit Dashboard
-        │
-        ▼
- Reports & Financial Insights
-
-The project demonstrates best practices in data engineering, backend development, financial analytics, database management, API development, and dashboard visualization, making it a complete financial intelligence solution for analyzing NIFTY 100 companies.
+The platform provides an end-to-end solution for processing, storing, analyzing, and visualizing financial data through ETL pipelines, SQL, FastAPI, and Streamlit dashboards.
